@@ -71,7 +71,7 @@ export default function ProductPage() {
   }
 
   return (
-    <div className="container py-6 md:py-8 px-4 md:px-0">
+    <div className="container mx-auto py-6 md:py-8 px-4 md:px-6">
       <div className="grid gap-6 md:gap-8 md:grid-cols-2">
         <div className="overflow-hidden rounded-lg border">
           <Image

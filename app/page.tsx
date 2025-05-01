@@ -11,7 +11,7 @@ export default async function Home() {
   const featuredProducts = await getFeaturedProducts(3)
 
   return (
-    <div className="container py-6 md:py-8 space-y-8 md:space-y-12">
+    <div className="container mx-auto py-6 md:py-8 space-y-8 md:space-y-12 px-4 md:px-6">
       <section className="space-y-4 md:space-y-6 text-center">
         <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold tracking-tighter">Welcome to E-Shop</h1>
         <p className="mx-auto max-w-[700px] text-base md:text-lg text-muted-foreground px-4 md:px-0">

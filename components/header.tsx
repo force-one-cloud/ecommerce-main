@@ -8,6 +8,7 @@ import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { useAuth } from "@/hooks/use-auth"
 import { useCart } from "@/hooks/use-cart"
+import { ThemeToggle } from "@/components/theme-toggle"
 
 export default function Header() {
   const pathname = usePathname()
@@ -128,6 +129,7 @@ export default function Header() {
               <span className="hidden sm:inline">Offline</span>
             </div>
           )}
+          <ThemeToggle />
           <Link href="/cart">
             <Button variant="ghost" size="icon" className="relative">
               <ShoppingCart className="h-5 w-5" />

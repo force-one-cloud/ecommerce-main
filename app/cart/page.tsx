@@ -51,7 +51,7 @@ export default function CartPage() {
   }
 
   return (
-    <div className="container py-6 md:py-8 px-4 md:px-0">
+    <div className="container mx-auto py-6 md:py-8 px-4 md:px-6">
       <PageHeader title="Your Cart" />
 
       {offlineMode && (

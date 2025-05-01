@@ -92,3 +92,8 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+/* Add this at the end of the file */
+.container {
+  @apply mx-auto max-w-screen-xl;
+}

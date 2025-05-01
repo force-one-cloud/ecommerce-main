@@ -8,7 +8,7 @@ export default async function ProductsPage() {
   const products = await getProducts()
 
   return (
-    <div className="container py-6 md:py-8 px-4 md:px-0">
+    <div className="container mx-auto py-6 md:py-8 px-4 md:px-6">
       <PageHeader title="All Products" />
 
       {products.length > 0 ? (
